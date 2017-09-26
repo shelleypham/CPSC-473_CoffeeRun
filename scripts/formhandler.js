@@ -30,5 +30,5 @@
   };
 
   App.FormHandler = FormHandler;
-  Window.App = App;
+  window.App = App;
 })(window);

@@ -26,8 +26,8 @@
       fn(data);
       this.reset();
       this.elements[0].focus();
-    })
-  }
+    });
+  };
 
   App.FormHandler = FormHandler;
   Window.App = App;
